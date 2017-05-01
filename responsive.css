@@ -1,0 +1,46 @@
+/*responsive*/
+@media (max-width: 1024px) {
+  .video-container{
+    display: none;
+  }
+  /*.burger{
+		display: inline-block;
+	  }*/
+    .header-nav{
+		  position: fixed;
+	    width: 100%;
+	    height: calc(100% - 101px);
+	    top: 101px;
+	    left: -100%;
+	    background: red;
+	    margin-left: inherit;
+    	transition: left .3s ease 1s;
+	}
+	.header-nav.active{
+		left: 0;
+	}
+  .banner-container .container .banner img{
+    width: 100%;
+  }
+  	.news-sacdeli .news:last-child{
+  		display: none;
+  	}
+  	.news-sacdeli .news{
+  		width: calc(33.3% - 30px)
+  	}
+  	.news-sacdeli .news img{
+  		width: 100%;
+  	}
+  .featured-container .featured-1 {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+  .featured-container .featured-2 {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+}

@@ -1,0 +1,482 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 1365px;
+}
+
+.container {
+  width: 1200px;
+  font-size: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.header {
+  background-color: #ffffff;
+  height: 100px;
+}
+
+.logo {
+  width: 200px;
+  padding-right: 85px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 60px;
+  /*padding-left: 120px;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navigation {
+  display: inline-block;
+  vertical-align: middle;
+  color: #3D58A6;
+}
+
+.navigation ul {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navigation ul li {
+  font-size: 20px;
+  font-family: "Roboto";
+  display: inline-block;
+  padding: 0 15px;
+}
+
+a.class1 {
+  text-decoration: none;
+  color: #3D58A6;
+}
+
+a.class1:hover {
+  opacity: 0.5;
+}
+
+.burger{
+	width: 61px;
+	height: 61px;
+	background-image: url(burger.svg);
+	display: none;
+	float: right;
+	margin-right: 30px;
+}
+/*
+.search{
+	width: 40px;
+	height: 40px;
+}
+.search i{
+    font-size: 40px;
+}
+.social-icon{
+	display: none;
+}
+
+.social-icon li {
+	display: inline-block;
+	vertical-align: middle;*/
+
+/*banner*/
+.banner-container {
+  background-color: #E6E6E6;
+  display: block;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.container .banner img {
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.text-1 {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #E6E6E6;
+  position: absolute;
+  left: 30px;
+  bottom: 60px;
+}
+
+.logo-html {
+  position: absolute;
+  right: 30px;
+  bottom: 80px;
+  width: 100px;
+}
+/*ბანერი*/
+
+/*ვიდეო*/
+.video-container {
+  background-color: #363E97;
+
+}
+.video-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.video-container h1 {
+  color: #ffffff;
+  font-family: "Roboto";
+<<<<<<< HEAD
+  font-size: 24px;
+  margin: auto 0px;
+  padding: 30px 0;
+=======
+<<<<<<< Updated upstream
+  font-size: 25px;
+  margin-left: 120px;
+  padding-top: 30px;
+=======
+  font-size: 24px;
+  margin: auto 0px;
+  padding: 30px 0;
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+}
+
+.video {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 570px;
+  height: 320px;
+  margin: auto 15px;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+#left {
+  margin-left: 0px;
+}
+
+#right {
+  float: right;
+  margin-right: 0px;
+}
+
+.video p {
+  font-family: "Roboto";
+  font-size: 15px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+/*video*/
+
+/*news*/
+.news-container {
+  background-color: #BDCCD4;
+}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+.news-container h4 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 25px;
+  margin-left: 120px;
+  padding-top: 30px;
+=======
+>>>>>>> origin/master
+body#newspage .container_test {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+  }
+
+body#newspage .news-sacdeli .news {
+    width: 270px;
+    height: 270px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 15px;
+    padding-top: 60px;
+  }
+
+body#newspage .news-sacdeli .news:nth-child(5){
+    padding-top: 35px;
+  }
+
+body#newspage .news-sacdeli .news:nth-child(6){
+    padding-top: 35px;
+  }
+
+body#newspage .news-sacdeli .news:nth-child(7){
+    padding-top: 35px;
+  }
+
+body#newspage .news-sacdeli .news:nth-child(8){
+    padding-top: 35px;
+  }
+
+body#homepage .container_test {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+}
+
+.container_test {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+}
+
+.news-container .container_test h1{
+  color: #3D58A6;
+  font-family: "Roboto";
+  font-size: 20px;
+  display: block;
+  margin-left: 0px;
+  padding: 30px 0px;
+}
+
+.news-container .container_test > h1{
+	padding: 30px 0;
+}
+
+.news-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.news-sacdeli{
+  display: inline-block;
+}
+
+.news-sacdeli .news {
+  width: 270px;
+  height: 270px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto 15px;
+}
+
+.news-container .news img {
+  display: block;
+  width: 100%;
+}
+
+.news-container .container_test .news:nth-child(1){
+  margin-left: 0px;
+}
+
+.news-container .container_test .news:nth-child(4){
+  margin-right: 0px;
+}
+
+.news-title {
+  background-color: #E6E6E6;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  color: #333333;
+  font-family: "Roboto"
+}
+
+.news-title h2 {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+/*news*/
+
+/*featured*/
+.featured-container {
+  background-color: #E6E6E6;
+  display: block;
+}
+
+.featured-container h1 {
+  color: #000000;
+  font-family: "Roboto";
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+  font-size: 25px;
+  margin-left: 120px;
+  padding-top: 30px;
+=======
+>>>>>>> origin/master
+  font-size: 20px;
+  display: block;
+  margin-left: 0px;
+  padding: 30px 0px;
+}
+
+.featured-container a {
+  color: #000000;
+  text-decoration: none;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+}
+
+.featured {
+  width: inherit;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.featured-1 {
+  display: inline-block;
+  width: 570px;
+  height: 225px;
+  background-color: #ffffff;
+  margin-right: auto;
+  margin-left: 0px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.readmore-1 {
+  float: right;
+  height: 30px;
+  width: 70px;
+  font-size: 15px;
+  color: #3D58A6;
+  margin-right: 0px;
+}
+
+.readmore-2 {
+  float: right;
+  height: 30px;
+  width: 70px;
+  font-size: 15px;
+  color: #3D58A6;
+  margin-right: 0px;
+}
+
+.title-web {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #3D58A6;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.featured-1 img {
+  width: 20%;
+  padding-top: 5px;
+  padding-left: 40px;
+}
+
+.text-web {
+  float:right;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 60%;
+  text-align: justify;
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.featured-2 {
+  display: inline-block;
+  width: 570px;
+  height: 225px;
+  background-color: #ffffff;
+  float: right;
+  padding-top: 10px;
+}
+
+.title-app {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #3D58A6;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.featured-2 img {
+  width: 20%;
+  padding-top: 5px;
+  padding-left: 40px;
+}
+
+.text-app {
+  float: right;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 60%;
+  text-align: justify;
+  padding-top: 5px;
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  margin-right: 30px;
+}
+
+.MainFooter {
+  background-color: #FFFFFF
+}
+
+.container_footer {
+  height: 60px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MainFooter p1 {
+  float: left;
+<<<<<<< HEAD
+  margin-left: 0px;
+=======
+<<<<<<< Updated upstream
+  margin-left: 120px;
+=======
+  margin-left: 0px;
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  padding-top: 25px;
+}
+
+
+.MainFooter p2 {
+  float: right;
+<<<<<<< HEAD
+  margin-right: 0px;
+=======
+<<<<<<< Updated upstream
+  margin-right: 120px;
+=======
+  margin-right: 0px;
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  padding-top: 25px;
+}
